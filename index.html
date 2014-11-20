@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<title>Navigation Dots</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="navigationDots-1.0.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$("h3").navDots({
+					'offset': '50'
+				});
+			});
+		</script>
+	</head>
+	<body>
+
+		<div>
+			<h1>Navigation Dots</h1>
+			<p>This jQuery plugin offers you the possibility to add navigation bullets toy ou website.</p>
+			<p>You can easily configure the parameters.<br/>
+			Check the examples on the bottom on this page !</p>
+		</div>
+		<div class='text'>
+			<h3>Features</h3>
+			<ul>
+				<li>Lightweight</li>
+				<li>Works with all CMS (WordPress, Drupal, ...)</li>
+				<li>Cross-browers</li>
+				<li>No javascript skills are required</li>
+			</ul>
+			<h3>How to use ?</h3>
+			<code>
+				$("#yourelement").navDots();
+			</code>
+			<h3>Options</h3>
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Value</th>
+						<th>Default value</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>id</td>
+						<td>string</td>
+						<td>navdots</td>
+					</tr>
+					<tr>
+						<td>dotClass</td>
+						<td>string</td>
+						<td>dot</td>
+					</tr>
+					<tr>
+						<td>activeClass</td>
+						<td>string</td>
+						<td>active</td>
+					</tr>
+					<tr>
+						<td>easing</td>
+						<td>string</td>
+						<td>swing</td>
+					</tr>
+					<tr>
+						<td>speed</td>
+						<td>number</td>
+						<td>700</td>
+					</tr>
+					<tr>
+						<td>offset</td>
+						<td>number</td>
+						<td>400</td>
+					</tr>
+					<tr>
+						<td>style</td>
+						<td>boolean</td>
+						<td>true</td>
+					</tr>
+					<tr>
+						<td>minDots</td>
+						<td>number</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>navStyle</td>
+						<td>object</td>
+						<td>
+							{<br/>
+					      &nbsp;&nbsp;'position' : 'fixed',<br/>
+					      &nbsp;&nbsp;'right' : '20px',<br/>
+					      &nbsp;&nbsp;'top' : '50%',<br/>
+					      &nbsp;&nbsp;'z-index' : '100'<br/>
+					    }
+						</td>
+					</tr>
+					<tr>
+						<td>dotStyle</td>
+						<td>object</td>
+						<td>
+							{<br/>
+					      &nbsp;&nbsp;'background-color' : 'black',<br/>
+					      &nbsp;&nbsp;'border-radius' : '8px',<br/>
+					      &nbsp;&nbsp;'cursor' : 'pointer',<br/>
+					      &nbsp;&nbsp;'height' : '8px',<br/>
+					      &nbsp;&nbsp;'margin-bottom' : '5px',<br/>
+					      &nbsp;&nbsp;'width' : '8px'<br/>
+					    }
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<h3>Credits</h3>
+			<ul>
+				<li>Created by <a href="https://github.com/maximegaul" target="_new">Maxime Gaul</a></li>
+			</ul>
+		</div>
+
+	</body>
+</html>
